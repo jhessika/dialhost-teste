@@ -1,0 +1,136 @@
+*{
+	box-sizing: border-box;
+	margin-top: 0;	
+ }
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+}
+
+#centro{
+	margin-top: 0;
+	text-align: center;
+	background: #F5F5F5;
+	text-transform: uppercase;
+	padding: 50px;
+} 
+
+.icones-redes-sociais li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.icones-redes-sociais a {
+    display: block;
+    
+}
+.icones-redes-sociais{
+	text-align: center;
+	padding: 10px;
+}
+
+.icones-redes-sociais a img{
+	width: 30px;
+}
+
+.foto-descrição{
+    height: 300px;
+}
+
+p {
+	text-align: justify;
+    margin: 20px 0;
+}
+h2{
+	margin-left: 5%;
+}
+
+.descricao {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+    background: #D1EEEE;
+}
+
+.texto-sobre-mim{
+	float: left;
+	text-align: left;
+	width: 45%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.informacoes-gerais{
+	width: 90%;
+    margin: 0 auto;
+}
+
+.servicos{
+	background: #F5F5F5;
+	padding: 40px 35px;
+	width: 45%;
+	float: left;
+}
+.item-servico{
+	margin-bottom: 40px;
+}
+.item-servico h3 {
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 5px;
+}
+
+.item-servico p {
+	font-weight: 200;
+	margin: 0;
+	line-height: 1.8;
+}
+
+.estatisticas{
+	width: 45%;
+	float: right;
+	padding-top: 40px;
+    text-align: right;
+    padding-right: 280px;
+}
+
+.item-estatistica{
+	margin-bottom: 30px;
+	
+}
+.item-estatistica h3{
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+
+.item-estatistica span{
+	font-size: 50px;
+    font-weight: 200;
+}
+
+footer{
+	clear: both;
+	background: #D1EEEE;
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer form{
+	margin: 8px auto;
+	width: 10%;
+}
+
+.campo-formulario{
+	margin: 4px 0;
+}
+.campo-formulario label{
+	text-align: left;
+}
+.campo-formulario input, .campo-formulario textarea, .campo-formulario label {
+	display: block;
+}
+
