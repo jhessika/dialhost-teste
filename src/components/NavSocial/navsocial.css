@@ -1,0 +1,17 @@
+.icones-redes-sociais li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.icones-redes-sociais a {
+  display: block;
+  
+}
+.icones-redes-sociais{
+text-align: center;
+padding: 10px;
+}
+
+.icones-redes-sociais a img{
+width: 30px;
+}

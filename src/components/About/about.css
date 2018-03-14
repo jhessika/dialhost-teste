@@ -1,0 +1,25 @@
+.descricao {
+	width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+    background: #D1EEEE;
+}
+
+.texto-sobre-mim{
+	float: left;
+	text-align: left;
+	width: 45%;
+	margin-right: 5%;
+	margin-left: 5%;
+	font-weight: 200;
+}
+.sobre-mim h2{
+	font-weight: 200;
+}
+.foto-descricao{
+  height: 300px;
+}
+.texto-sobre-mim p {
+  text-align: justify;
+}
