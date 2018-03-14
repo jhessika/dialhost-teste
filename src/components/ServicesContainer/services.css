@@ -1,0 +1,20 @@
+.servicos{
+	background: #F5F5F5;
+	padding: 40px 35px;
+	width: 45%;
+	float: left;
+}
+.item-servico{
+	margin-bottom: 40px;
+}
+.item-servico h3 {
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 5px;
+}
+
+.item-servico p {
+	font-weight: 200;
+	margin: 0;
+	line-height: 1.8;
+}

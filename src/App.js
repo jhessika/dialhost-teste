@@ -4,14 +4,16 @@ import Header from './components/Header';
 import Social from './components/Social';
 import NavSocial from './components/NavSocial';
 import About from './components/About';
+import ServicesContainer from './components/ServicesContainer';
+import StatisticsContainer from './components/StatisticsContainer';
+
+
 
 import wordpress from './img/wordpress.png';
 import facebook from './img/facebook.png';
 import twitter from './img/twitter.png';
 import youtube from './img/youtube.png';
 import instagram from './img/instagram.png';
-
-
 
 import './App.css';
 
@@ -29,6 +31,10 @@ class App extends Component {
             <Social icon={twitter} link="https://twitter.com/Jhessi_oliv" users="100"/>
           </NavSocial>
           <About/>
+          <section className="informacoes-gerais">
+            <ServicesContainer/>
+            <StatisticsContainer/>
+          </section>
         </main>
       </div>
     );

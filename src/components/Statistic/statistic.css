@@ -1,0 +1,14 @@
+.item-estatistica{
+	margin-bottom: 30px;
+	
+}
+.item-estatistica h3{
+	font-weight: 200;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+
+.item-estatistica span{
+	font-size: 50px;
+    font-weight: 200;
+}
