@@ -1,24 +1,34 @@
-.campo-formulario{
+#Form .Form-field {
 	margin: 8px 0;
 }
-.campo-formulario label{
+
+#Form{
+	margin: 8px auto;
+	width: 10%;
+}
+
+#Form .Form-field label{
 	text-align: left;
 }
-.campo-formulario input, .campo-formulario textarea, .campo-formulario label {
+
+#Form .Form-field  input, #Form .Form-field  textarea, #Form .Form-field  label {
 	display: block;
 }
-.campo-formulario input{
+
+#Form .Form-field input{
 	margin: 0;
     width: 100%;
     height: 25px;
     border-color: black;
 }
-.campo-formulario textarea{
+
+#Form .Form-field textarea{
 	border-color: black;
     border-width: 2px;
     height: 50px;
 }
-.botao-enviar{
+
+#Form .Form-button{
 	width: 100%;
     padding: 10px 0;
     background-color: black;
@@ -26,9 +36,10 @@
     text-transform: uppercase;
     cursor: pointer;
 }
-.botao-enviar:disabled {
+#Form .Form-button:disabled {
     background-color: gray;
     color: #fff;
     cursor: not-allowed;
 }
+
 

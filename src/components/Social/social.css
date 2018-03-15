@@ -1,0 +1,13 @@
+.Social {
+  display: inline-block;
+  margin: 10px;
+}
+
+.Social a {
+  display: block;
+  
+}
+
+.Social a img{
+  width: 30px;
+  }

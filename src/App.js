@@ -31,7 +31,7 @@ class App extends Component {
             <Social icon={twitter} link="https://twitter.com/Jhessi_oliv" users="100"/>
           </NavSocial>
           <About/>
-          <section className="informacoes-gerais">
+          <section className="General">
             <ServicesContainer/>
             <StatisticsContainer/>
           </section>

@@ -1,4 +1,4 @@
-.descricao {
+#About {
 	width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -6,20 +6,20 @@
     background: #D1EEEE;
 }
 
-.texto-sobre-mim{
+#About .About-container{
 	float: left;
-	text-align: left;
 	width: 45%;
 	margin-right: 5%;
 	margin-left: 5%;
+}
+#About .About-text{
+	font-weight: 200;
+	text-align: left;
+	text-align: justify;
+}
+#About .About-title{
 	font-weight: 200;
 }
-.sobre-mim h2{
-	font-weight: 200;
-}
-.foto-descricao{
+#About .About-picture img{
   height: 300px;
-}
-.texto-sobre-mim p {
-  text-align: justify;
 }

@@ -5,7 +5,7 @@ import Statistic from '../Statistic';
 class StatisticsContainer extends Component{
   render(){
     return(
-      <div className="estatisticas">
+      <div id="StatisticsContainer">
         <Statistic title="Vizualizações de pagina" users={2000}/>
         <Statistic title="Visitantes Únicos" users={1000}/>
         <Statistic title="Público" users={93} suffix="%"/>

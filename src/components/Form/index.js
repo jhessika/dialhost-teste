@@ -25,7 +25,7 @@ class Form extends Component{
 
 	handleSubmit = (event) => {
 		event.preventDefault();
-		alert('👏 Parebens '+ this.state.name + ' Seu email foi enviado com sucesso!')
+		alert('👏 Parabéns '+ this.state.name + ' Seu email foi enviado com sucesso!')
 	}
 
 	validate = (name, email, message) => {
@@ -41,20 +41,20 @@ class Form extends Component{
 		const errors = this.validate(this.state.name, this.state.email, this.state.message);
 		const isDisabled = Object.keys(errors).some(x => errors[x])
     return(
-      <form onSubmit={this.handleSubmit}>
-				<div className="campo-formulario">
-					<label forName="nome">Nome</label>
+      <form id="Form" onSubmit={this.handleSubmit}>
+				<div className="Form-field">
+					<label>Nome</label>
 					<input type="text" name="name" value={this.state.name} onChange={this.handleNameChange}/>
 				</div>
-				<div className="campo-formulario">
-					<label forName="email">E-mail</label>
+				<div className="Form-field">
+					<label>E-mail</label>
 					<input type="email" name="email" vaule={this.state.email} onChange={this.handleEmailChange}/>
 				</div>
-				<div className="campo-formulario">
-					<label forName="message">Mensagem</label>
+				<div className="Form-field">
+					<label>Mensagem</label>
 					<textarea name="message" value={this.state.message} onChange={this.handleMessageChange}></textarea>
 				</div>
-				<button disabled={isDisabled} className="botao-enviar">Enviar</button>
+				<button disabled={isDisabled} className="Form-button">Enviar</button>
 			</form>
     )
   }

@@ -1,0 +1,14 @@
+.Service {
+	margin-bottom: 40px;
+}
+.Service h3 {
+	text-transform: uppercase;
+	font-weight: 200;
+	margin-bottom: 5px;
+}
+
+.Service p {
+	font-weight: 200;
+	margin: 0;
+	line-height: 1.8;
+}
