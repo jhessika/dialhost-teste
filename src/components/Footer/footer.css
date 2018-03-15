@@ -1,0 +1,11 @@
+footer{
+	clear: both;
+	background: #D1EEEE;
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer form{
+	margin: 8px auto;
+	width: 10%;
+}

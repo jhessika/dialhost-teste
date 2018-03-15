@@ -1,0 +1,10 @@
+#centro{
+	margin-top: 0;
+	text-align: center;
+	background: #F5F5F5;
+	text-transform: uppercase;
+	padding: 50px;
+} 
+.titulo{
+	font-weight: 200;	
+}
