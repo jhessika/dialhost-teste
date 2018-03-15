@@ -8,7 +8,6 @@ class Statistic extends Component{
         <h3>{this.props.title}</h3>
         <span>{this.props.users}</span>
       </div>
-      
     )
   }
 }

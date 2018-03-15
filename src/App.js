@@ -6,7 +6,7 @@ import NavSocial from './components/NavSocial';
 import About from './components/About';
 import ServicesContainer from './components/ServicesContainer';
 import StatisticsContainer from './components/StatisticsContainer';
-
+import Footer from './components/Footer';
 
 
 import wordpress from './img/wordpress.png';
@@ -35,6 +35,7 @@ class App extends Component {
             <ServicesContainer/>
             <StatisticsContainer/>
           </section>
+          <Footer/>
         </main>
       </div>
     );

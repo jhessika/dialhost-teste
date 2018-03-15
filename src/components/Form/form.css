@@ -1,0 +1,28 @@
+.campo-formulario{
+	margin: 8px 0;
+}
+.campo-formulario label{
+	text-align: left;
+}
+.campo-formulario input, .campo-formulario textarea, .campo-formulario label {
+	display: block;
+}
+.campo-formulario input{
+	margin: 0;
+    width: 100%;
+    height: 25px;
+    border-color: black;
+}
+.campo-formulario textarea{
+	border-color: black;
+    border-width: 2px;
+    height: 50px;
+}
+.botao-enviar{
+	width: 100%;
+    padding: 10px 0;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+}
+
