@@ -24,5 +24,11 @@
     background-color: black;
     color: white;
     text-transform: uppercase;
+    cursor: pointer;
+}
+.botao-enviar:disabled {
+    background-color: gray;
+    color: #fff;
+    cursor: not-allowed;
 }
 
