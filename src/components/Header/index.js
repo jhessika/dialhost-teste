@@ -4,9 +4,9 @@ import './header.css';
 class Header extends Component {
   render() {
     return (
-      <header>
-		    <div className="conteiner">
-			    <h1 className="titulo" id="centro"> Jéssica Oliveira</h1>
+      <header id="Header">
+		    <div>
+			    <h1 className="Header-title"> Jéssica Oliveira</h1>
 		    </div>
 	    </header>
     );
